@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beranda - Semesta Kata</title>
+    <meta
+      name="description"
+      content="Semesta Kata: perpustakaan dengan 25.000 buku, ruang baca nyaman, dan kegiatan literasi."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23e84f90'/%3E%3Crect x='7' y='7' width='5' height='18' rx='1' fill='%232b1520'/%3E%3Crect x='14' y='7' width='5' height='18' rx='1' fill='%23fff'/%3E%3Crect x='21' y='9' width='5' height='16' rx='1' fill='%232b1520'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="semesta-kata.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="gedung" viewBox="0 0 200 104">
+        <g fill="currentColor">
+          <polygon points="8,30 100,2 192,30" />
+          <rect x="8" y="30" width="184" height="8" />
+          <rect x="20" y="38" width="12" height="52" />
+          <rect x="50" y="38" width="12" height="52" />
+          <rect x="80" y="38" width="12" height="52" />
+          <rect x="110" y="38" width="12" height="52" />
+          <rect x="140" y="38" width="12" height="52" />
+          <rect x="170" y="38" width="12" height="52" />
+          <rect x="8" y="90" width="184" height="7" />
+          <rect y="97" width="200" height="7" />
+        </g>
+      </symbol>
+      <symbol id="pohon" viewBox="0 0 30 100">
+        <g fill="currentColor">
+          <ellipse cx="15" cy="45" rx="12" ry="42" />
+          <rect x="13" y="85" width="4" height="15" />
+        </g>
+      </symbol>
+    </svg>
+    <a class="skip-link" href="#konten">Lewati ke konten</a>
+    <header class="site-header">
+      <div class="container topbar">
+        <a class="brand" href="index.html"
+          >Semesta Kata<small>perpustakaan umum kota</small></a
+        >
+        <nav class="nav" aria-label="Menu utama">
+          <input
+            class="nav__check"
+            type="checkbox"
+            id="nav-toggle"
+            aria-label="Buka menu"
+          />
+          <label class="nav__toggle" for="nav-toggle">menu</label>
+          <div class="nav__panel">
+            <ul class="nav__pill">
+              <li><a href="index.html" aria-current="page">beranda</a></li>
+              <li><a href="koleksi.html">koleksi</a></li>
+              <li><a href="layanan.html">layanan</a></li>
+              <li><a href="jadwal.html">jadwal</a></li>
+            </ul>
+            <a class="nav__cta" href="kontak.html">kontak</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main id="konten">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__word">Semesta Kata</h1>
+          <p class="hero__lead">
+            perpustakaan yang terasa seperti rumah, bukan gudang buku. datang,
+            baca, dan betah.
+          </p>
+          <a class="btn" href="kontak.html">daftar anggota gratis &rarr;</a>
+        </div>
+        <svg
+          class="hero__art"
+          viewBox="0 0 1200 380"
+          preserveAspectRatio="xMidYMax slice"
+          aria-hidden="true"
+        >
+          <use
+            href="#gedung"
+            x="-40"
+            y="140"
+            width="380"
+            height="198"
+            color="#d98aa8"
+          />
+          <use
+            href="#gedung"
+            x="850"
+            y="110"
+            width="400"
+            height="208"
+            color="#d98aa8"
+          />
+          <use
+            href="#pohon"
+            x="40"
+            y="150"
+            width="40"
+            height="150"
+            color="#6a2c47"
+          />
+          <use
+            href="#pohon"
+            x="1120"
+            y="130"
+            width="40"
+            height="150"
+            color="#6a2c47"
+          />
+          <use
+            href="#gedung"
+            x="230"
+            y="235"
+            width="300"
+            height="156"
+            color="#a64a70"
+          />
+          <use
+            href="#gedung"
+            x="700"
+            y="245"
+            width="280"
+            height="145"
+            color="#a64a70"
+          />
+          <use
+            href="#pohon"
+            x="190"
+            y="250"
+            width="34"
+            height="125"
+            color="#4a2236"
+          />
+          <use
+            href="#pohon"
+            x="560"
+            y="270"
+            width="30"
+            height="105"
+            color="#4a2236"
+          />
+          <use
+            href="#pohon"
+            x="1000"
+            y="255"
+            width="36"
+            height="120"
+            color="#4a2236"
+          />
+          <rect y="350" width="1200" height="30" fill="#1d0e15" />
+        </svg>
+      </section>
+      <section class="tail">
+        <div class="container">
+          <p class="tail__text">
+            <span class="tone-a">kami menjaga buku.</span>
+            <span class="tone-b">kamu menjaga rasa ingin tahu.</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="sheet sheet--light">
+        <div class="container split">
+          <div class="box">
+            <h2>perpustakaan untuk semua kebutuhan</h2>
+            <ul class="pills">
+              <li>
+                <a class="pill pill--dark" href="layanan.html">pinjam buku</a>
+              </li>
+              <li>
+                <a class="pill pill--pink" href="layanan.html"
+                  >baca di tempat</a
+                >
+              </li>
+              <li><a class="pill" href="layanan.html">ruang diskusi</a></li>
+              <li>
+                <a class="pill pill--pink" href="koleksi.html"
+                  >referensi skripsi</a
+                >
+              </li>
+              <li>
+                <a class="pill pill--dark" href="koleksi.html"
+                  >fiksi dan sastra</a
+                >
+              </li>
+              <li>
+                <a class="pill" href="koleksi.html">sains dan teknologi</a>
+              </li>
+              <li>
+                <a class="pill pill--dark" href="layanan.html"
+                  >wifi dan komputer</a
+                >
+              </li>
+              <li>
+                <a class="pill pill--pink" href="koleksi.html">buku anak</a>
+              </li>
+              <li><a class="pill" href="jadwal.html">klub buku</a></li>
+              <li>
+                <a class="pill pill--dark" href="jadwal.html">kelas menulis</a>
+              </li>
+              <li>
+                <a class="pill pill--pink" href="jadwal.html"
+                  >dongeng akhir pekan</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="box box--dark">
+            <h2>Semesta Kata &ndash; lebih dari sekadar rak buku</h2>
+            <p>
+              kami menyiapkan tempat di mana membaca terasa ringan dan
+              menyenangkan.
+            </p>
+            <p>
+              di sini kamu bisa belajar, berdiskusi, atau sekadar duduk tenang.
+              <em>buku, ruang, dan waktu</em> &mdash; semuanya tersedia.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sheet sheet--dark">
+        <div class="container formats">
+          <div class="formats__intro">
+            <h2 class="sheet__title">cara menikmati pustaka</h2>
+            <p>perpustakaan harus menyesuaikan dirimu, bukan sebaliknya.</p>
+            <p>
+              karena itu ada tiga cara: baca langsung di tempat, bawa pulang,
+              atau pakai ruang diskusi bersama temanmu.
+            </p>
+          </div>
+          <article class="tall">
+            <h3>baca di tempat</h3>
+            <p>120 kursi baca yang tenang dan sejuk.</p>
+            <p>tidak perlu daftar. ambil buku, duduk, dan mulai membaca.</p>
+            <svg
+              class="tall__art"
+              viewBox="0 0 200 120"
+              preserveAspectRatio="xMidYMax slice"
+              aria-hidden="true"
+            >
+              <use href="#gedung" x="25" y="32" width="165" height="86" />
+              <use href="#pohon" x="2" y="8" width="26" height="112" />
+              <use href="#pohon" x="176" y="22" width="22" height="98" />
+            </svg>
+            <a class="btn btn--line" href="jadwal.html">lihat jadwal &rarr;</a>
+          </article>
+          <article class="tall">
+            <h3>pinjam pulang</h3>
+            <p>pinjam sampai 5 buku selama 14 hari.</p>
+            <p>perpanjang sekali lewat meja layanan jika belum selesai.</p>
+            <svg
+              class="tall__art"
+              viewBox="0 0 200 120"
+              preserveAspectRatio="xMidYMax slice"
+              aria-hidden="true"
+            >
+              <use href="#gedung" x="25" y="32" width="165" height="86" />
+              <use href="#pohon" x="2" y="8" width="26" height="112" />
+              <use href="#pohon" x="176" y="22" width="22" height="98" />
+            </svg>
+            <a class="btn btn--light" href="koleksi.html"
+              >lihat koleksi &rarr;</a
+            >
+          </article>
+          <article class="tall">
+            <h3>ruang diskusi</h3>
+            <p>empat ruang untuk 4 sampai 10 orang.</p>
+            <p>cocok untuk kerja kelompok, bedah buku, atau belajar bersama.</p>
+            <svg
+              class="tall__art"
+              viewBox="0 0 200 120"
+              preserveAspectRatio="xMidYMax slice"
+              aria-hidden="true"
+            >
+              <use href="#gedung" x="25" y="32" width="165" height="86" />
+              <use href="#pohon" x="2" y="8" width="26" height="112" />
+              <use href="#pohon" x="176" y="22" width="22" height="98" />
+            </svg>
+            <a class="btn btn--line" href="layanan.html"
+              >lihat layanan &rarr;</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="sheet sheet--dark"
+        style="background: none; padding-top: 1.5rem"
+      >
+        <div class="container">
+          <form class="quiz" action="koleksi.html" method="get">
+            <h2>tes cepat: buku apa yang cocok untukku?</h2>
+            <div class="quiz__grid">
+              <div class="field">
+                <label for="q-genre">genre favoritmu</label>
+                <select class="control" id="q-genre" name="genre" required>
+                  <option value="">pilih</option>
+                  <option>fiksi</option>
+                  <option>sains</option>
+                  <option>sejarah</option>
+                  <option>anak</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="q-sering">seberapa sering kamu membaca</label>
+                <select class="control" id="q-sering" name="sering" required>
+                  <option value="">pilih</option>
+                  <option>jarang</option>
+                  <option>sebulan sekali</option>
+                  <option>tiap minggu</option>
+                  <option>tiap hari</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="q-waktu">waktu baca per sesi</label>
+                <select class="control" id="q-waktu" name="waktu" required>
+                  <option value="">pilih</option>
+                  <option>15 menit</option>
+                  <option>1 jam</option>
+                  <option>2 jam lebih</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="q-tujuan">kamu membaca untuk</label>
+                <select class="control" id="q-tujuan" name="tujuan" required>
+                  <option value="">pilih</option>
+                  <option>hiburan</option>
+                  <option>belajar</option>
+                  <option>tugas atau skripsi</option>
+                </select>
+              </div>
+            </div>
+            <button class="btn" type="submit">
+              lihat koleksi yang cocok &rarr;
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <a class="brand" href="index.html">Semesta Kata</a>
+          <p>Jl. Pustaka No. 12, Medan<br />Telepon (62) 555-0123</p>
+        </div>
+        <div>
+          <h2>jam buka</h2>
+          <p>
+            Senin - Jumat 08.00 - 17.00<br />Sabtu 09.00 - 15.00 <br> 
+            Minggu Tutup
+          </p>
+        </div>
+        <div>
+          <h2>jelajahi</h2>
+          <p>
+            <a href="koleksi.html">koleksi</a> &middot;
+            <a href="layanan.html">layanan</a> &middot;
+            <a href="jadwal.html">jadwal</a> &middot;
+            <a href="kontak.html">kontak</a>
+          </p>
+        </div>
+      </div>
+      <p class="site-footer__copy">&copy; 2026 Semesta Kata</p>
+    </footer>
+  </body>
+</html>
